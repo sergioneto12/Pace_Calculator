@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import CalculatorPace from './Components/CalculatorPace';
+import CalculatorSpeed from './Components/CalculatorSpeed';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="Main">
+      <header className="Main-header">
+
+      <h1>Calcule Aqui da Forma Mais Rápida e Eficiente!</h1>
+      
       </header>
+  
+      <CalculatorPace data={{
+        distance: '',
+        hours: '',
+        minutes: '',
+        result: '',
+        }}
+      /> 
+
+      <CalculatorSpeed data={{
+        distance: '',
+        hours: '',
+        minutes: '',
+        result: '',
+        }}
+      /> 
     </div>
   );
 }
