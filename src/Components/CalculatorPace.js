@@ -22,18 +22,28 @@ export default class CalculatorPace extends Component {
 
     converter(){
 
-        let distance = parseFloat(this.state.distance_value)
-        let hours = parseFloat(this.state.hours_value * 60)
-        let minutes = parseFloat(this.state.minutes_value)
-        let time = hours + minutes
+        let distance = parseFloat(this.state.distance_value);
+        let hours = parseFloat(this.state.hours_value * 60);
+        let minutes = parseFloat(this.state.minutes_value);
+        let time = hours + minutes;
 
+        let calculation = (time/distance).toFixed(2);
+        const str1 = calculation.toString();
+        const splitted = str1.split('.');
+        
+        let int = parseInt(splitted[0]);
+        let dec = parseFloat(splitted[1]);
 
-        let result_value = (time/distance).toFixed(2)
+        let dec1 = (dec * 6)/10;
 
-        this.setState({result_value})
+        const int_1 = int.toString();
+        const dec_2 = dec1.toString();
+              
+        let result_value = int_1 + 'min e ' + dec_2 + 'seg por km';
 
-        console.log(result_value)
+        this.setState({result_value});
 
+        console.log(result_value);
 
     }
 

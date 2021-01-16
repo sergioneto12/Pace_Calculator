@@ -1,4 +1,4 @@
-@media (min-width: 700px) {
+@media (min-width: 1116px) {
   
     .Data {
       background-color: #0c1f38;
@@ -18,7 +18,7 @@
     .Data h2 {
       color: white;
       margin: 10px;
-      margin-top: 6%;
+      margin-top: 2%;
       
     }
     
@@ -32,6 +32,10 @@
       border: 0.5px solid white;
       border-radius: 5%;
       height: 15px;
+      width: 20%;
+      text-align: center;
+      font-weight: 900;
+      font-size: large;
       
     }
     
@@ -39,6 +43,10 @@
       border: 0.5px solid white;
       border-radius: 5%;
       height: 15px;
+      width: 20%;
+      text-align: center;
+      font-weight: 900;
+      font-size: large;
       
     }
     
@@ -46,6 +54,10 @@
       border: 0.5px solid white;
       border-radius: 5%;
       height: 15px;
+      width: 20%;
+      text-align: center;
+      font-weight: 900;
+      font-size: large;
       
     }
     
@@ -68,14 +80,14 @@
   
   }
   
-  @media (max-width: 699px) {
+  @media (max-width: 1115px) {
   
   .Data {
     background-color:#0c1f38;
-    width: 420px;
-    height: 480px;
+    width: 50%;
+    height: 50%;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 1%;
     justify-items: right;
     border: 1px solid white;
     border-radius: 10%;
@@ -88,7 +100,7 @@
   .Data h2 {
     color: white;
     margin: 10px;
-    margin-top: 6%;
+    margin-top: 0%;
     
   }
   
@@ -102,21 +114,33 @@
   .Data .distance {
     border: 0.5px solid white;
     border-radius: 5%;
-    height: 15px;
-    
+    height: 25px;
+    width: 20%;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
+        
   }
   
   .Data .hours {
     border: 0.5px solid white;
     border-radius: 5%;
-    height: 15px;
+    height: 25px;
+    width: 20%;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
     
   }
   
   .Data .minutes {
     border: 0.5px solid white;
     border-radius: 5%;
-    height: 15px;
+    height: 25px;
+    width: 20%;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
     
   }
   
@@ -128,6 +152,7 @@
     font-size: 30px;
     border: 1px solid;
     border-radius: 10%;
+  
   }
   
   }
