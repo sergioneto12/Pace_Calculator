@@ -8,9 +8,9 @@ export default class CalculatorSpeed extends Component {
         super(props);
 
         this.state = {
-            distance_value: '',
-            hours_value: '',
-            minutes_value: '',
+            distance_value: 0,
+            hours_value: 0,
+            minutes_value: 0,
             result_value: 0,
 
         }

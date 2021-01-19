@@ -7,9 +7,9 @@ export default class CalculatorPace extends Component {
         super(props);
 
         this.state = {
-            distance_value: '',
-            hours_value: '',
-            minutes_value: '',
+            distance_value: 0,
+            hours_value: 0,
+            minutes_value: 0,
             result_value: 0,
 
         }
@@ -54,17 +54,17 @@ export default class CalculatorPace extends Component {
                 <h1>Seu tempo por km</h1>
 
                 <h2>Quanto você percorreu (em km)?</h2>
-                <input className='distance' type='text' onChange={(event) => {this.setState({distance_value:event.target.value})}}></input>
+                <input className='distance' type='text' inputMode='numeric' onChange={(event) => {this.setState({distance_value:event.target.value})}}></input>
 
                 <h2>Em quanto tempo?</h2>
                 
                 <h3>Qtd de horas 
                 </h3>
-                <input className='hours' type='text' onChange={(event) => {this.setState({hours_value:event.target.value})}}></input>
+                <input className='hours' type='text' inputMode='numeric' onChange={(event) => {this.setState({hours_value:event.target.value})}}></input>
 
                 <h3>Qtd de minutos
                 </h3>  
-                <input className='minutes' type='text' onChange={(event) => {this.setState({minutes_value:event.target.value})}}></input>
+                <input className='minutes' type='text' inputMode='numeric' onChange={(event) => {this.setState({minutes_value:event.target.value})}}></input>
 
                 <h3>Resultado (min/km)</h3>
                 <h1>{this.state.result_value}</h1>
