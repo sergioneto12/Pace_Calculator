@@ -51,7 +51,7 @@ export default class CalculatorPace extends Component {
         return(
 
             <form className="Data" method='GET'>
-                <h1>Seu tempo por km</h1>
+                <h1>Seu Tempo Por km</h1>
 
                 <h2>Quanto você percorreu (em km)?</h2>
                 <input className='distance' type='text' inputMode='numeric' onChange={(event) => {this.setState({distance_value:event.target.value})}}></input>

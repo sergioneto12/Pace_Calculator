@@ -1,98 +1,16 @@
-@media (min-width: 1116px) {
-  
-    .Data {
-      background-color: #0c1f38;
-      width: 420px;
-      height: 480px;
-      margin: auto;
-      margin-top: 2%;
-      justify-items: right;
-      border: 1px solid white;
-      border-radius: 10%;
-    }
-  
-    .Data h1 {
-      color: #e65401
-    }
-    
-    .Data h2 {
-      color: white;
-      margin: 10px;
-      margin-top: 2%;
-      
-    }
-    
-    .Data h3 {
-      font-weight: 500;
-      margin: 8px;
-      color: white;
-    }
-  
-    .Data .distance {
-      border: 0.5px solid white;
-      border-radius: 5%;
-      height: 15px;
-      width: 20%;
-      text-align: center;
-      font-weight: 900;
-      font-size: large;
-      
-    }
-    
-    .Data .hours {
-      border: 0.5px solid white;
-      border-radius: 5%;
-      height: 15px;
-      width: 20%;
-      text-align: center;
-      font-weight: 900;
-      font-size: large;
-      
-    }
-    
-    .Data .minutes {
-      border: 0.5px solid white;
-      border-radius: 5%;
-      height: 15px;
-      width: 20%;
-      text-align: center;
-      font-weight: 900;
-      font-size: large;
-      
-    }
-    
-    .Button {
-      height: 50px;
-      justify-content: center;
-      background-color: #e65401;
-      color: white;
-      font-size: 30px;
-      border: 1px solid;
-      border-radius: 10%;
-      font-family: Roboto;
-    }
-  
-  /*@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }*/
-  
-  }
-  
-  @media (max-width: 1115px) {
+@media (min-width: 1101px) {
   
   .Data {
-    background-color:#0c1f38;
-    width: 50%;
-    height: 50%;
+    background-color: #0c1f38;
+    width: 420px;
+    height: 480px;
     margin: auto;
-    margin-top: 1%;
+    margin-top: 2%;
     justify-items: right;
     border: 1px solid white;
     border-radius: 10%;
   }
-  
+
   .Data h1 {
     color: #e65401
   }
@@ -100,7 +18,7 @@
   .Data h2 {
     color: white;
     margin: 10px;
-    margin-top: 0%;
+    margin-top: 2%;
     
   }
   
@@ -109,38 +27,40 @@
     margin: 8px;
     color: white;
   }
-  
-  
+
   .Data .distance {
     border: 0.5px solid white;
     border-radius: 5%;
-    height: 25px;
+    height: 15px;
     width: 20%;
     text-align: center;
     font-weight: 900;
     font-size: large;
-        
+    cursor: pointer;
+    
   }
   
   .Data .hours {
     border: 0.5px solid white;
     border-radius: 5%;
-    height: 25px;
+    height: 15px;
     width: 20%;
     text-align: center;
     font-weight: 900;
     font-size: large;
+    cursor: pointer;
     
   }
   
   .Data .minutes {
     border: 0.5px solid white;
     border-radius: 5%;
-    height: 25px;
+    height: 15px;
     width: 20%;
     text-align: center;
     font-weight: 900;
     font-size: large;
+    cursor: pointer;
     
   }
   
@@ -152,17 +72,242 @@
     font-size: 30px;
     border: 1px solid;
     border-radius: 10%;
-  
+    font-family: Roboto;
+    cursor: pointer;
   }
+
+}
+
+@media (max-width: 1100px) {
+
+.Data {
+  background-color:#0c1f38;
+  width: 85%;
+  height: 80%;
+ 
+  margin-top: 1%;
+  justify-items: right;
+  border: 1px solid white;
+  border-radius: 10%;
+}
+
+.Data h1 {
+  color: #e65401
+}
+
+.Data h2 {
+  color: white;
+  margin: 10px;
+  margin-top: 0%;
   
+}
+
+.Data h3 {
+  font-weight: 500;
+  margin: 8px;
+  color: white;
+}
+
+
+.Data .distance {
+  border: 0.5px solid white;
+  border-radius: 5%;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+      
+}
+
+.Data .hours {
+  border: 0.5px solid white;
+  border-radius: 5%;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+  
+}
+
+.Data .minutes {
+  border: 0.5px solid white;
+  border-radius: 5%;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+  
+}
+
+.Button {
+  height: 50px;
+  justify-content: center;
+  background-color: #e65401;
+  color: white;
+  font-size: 30px;
+  border: 1px solid;
+  border-radius: 10%;
+
+}
+
+}
+
+@media (max-width: 1050px) {
+
+  .Data {
+    background-color:#0c1f38;
+    width: 80%;
+    height: 80%;
+    
+   
+    margin-top: 1%;
+    justify-items: right;
+    border: 1px solid white;
+    border-radius: 10%;
   }
+
+.Data h1 {
+  color: #e65401
+}
+
+.Data h2 {
+  color: white;
+  margin: 10px;
+  margin-top: 0%;
   
-  /*@keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }*/
+}
+
+.Data h3 {
+  font-weight: 500;
+  margin: 8px;
+  color: white;
+}
+
+
+.Data .distance {
+  border: 0.5px solid white;
+  border-radius: 5%;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+      
+}
+
+.Data .hours {
+  border: 0.5px solid white;
+  border-radius: 5%;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+  
+}
+
+.Data .minutes {
+  border: 0.5px solid white;
+  border-radius: 5%;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+  
+}
+
+.Button {
+  height: 50px;
+  justify-content: center;
+  background-color: #e65401;
+  color: white;
+  font-size: 30px;
+  border: 1px solid;
+  border-radius: 10%;
+
+}
+  
+}
+
+@media (max-width: 700px) {
+
+  .Data {
+    background-color:#0c1f38;
+    width: 110%;
+    height: 80%;
+    margin-left: -3%;
+   
+    margin-top: 1%;
+    justify-items: right;
+    border: 1px solid white;
+    border-radius: 10%;
+  }
+
+.Data h1 {
+  color: #e65401
+}
+
+.Data h2 {
+  color: white;
+  margin: 10px;
+  margin-top: 0%;
+  
+}
+
+.Data h3 {
+  font-weight: 500;
+  margin: 8px;
+  color: white;
+}
+
+
+.Data .distance {
+  border: 0.5px solid white;
+  border-radius: 5%;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+      
+}
+
+.Data .hours {
+  border: 0.5px solid white;
+  border-radius: 5%;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+  
+}
+
+.Data .minutes {
+  border: 0.5px solid white;
+  border-radius: 5%;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+  
+}
+
+.Button {
+  height: 50px;
+  justify-content: center;
+  background-color: #e65401;
+  color: white;
+  font-size: 30px;
+  border: 1px solid;
+  border-radius: 10%;
+
+}
+  
+}
   
