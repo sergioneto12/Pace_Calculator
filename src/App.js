@@ -4,6 +4,8 @@ import CalculatorSpeed from './Components/CalculatorSpeed';
 import Map from '../src/Images/Map.jpeg';
 
 function App() {
+  document.title = 'Calculadora de Corrida';
+
   return (
     <div>
       <div className="Main">
@@ -62,7 +64,7 @@ function App() {
             <h3>
               <p>Normalmente, um especialista é essencial no assunto, mas podemos tirar algumas conclusões simples nesta questão:</p>
               <p>1 - Só depende de você e do seu corpo. Nunca deve se comparar a ninguém como parâmetro.</p>
-              <p>2 - Exercícios são fundamentais para melhorar seu desempenho. Hoje em dia, até mesmo soluções de apps (alguns pagos, outras gratuitos) podem ajudar a quem quer sair do sedentarismo</p>
+              <p>2 - Exercícios são fundamentais para melhorar seu desempenho. Hoje em dia, até mesmo soluções de apps (alguns pagos, outros gratuitos) podem ajudar a quem quer sair do sedentarismo</p>
               <p>3 - Não se deve começar com grandes distâncias ou grandes velocidades. Acostume seu corpo aos poucos. Paciência é fundamental nessas horas!</p>
               <p>4 - Lembre-se de não se esforçar além da conta. Sempre faça alongamentos e aproveite para relaxar. Causar mais tensão no corpo, para obter resultados, não é nada saudável!</p>
 

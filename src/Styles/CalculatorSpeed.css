@@ -9,6 +9,7 @@
     justify-items: right;
     border: 1px solid white;
     border-radius: 10%;
+
   }
 
   .Data h1 {
@@ -31,7 +32,7 @@
   .Data .distance {
     border: 0.5px solid white;
     border-radius: 5%;
-    height: 15px;
+    height: 20px;
     width: 20%;
     text-align: center;
     font-weight: 900;
@@ -43,7 +44,7 @@
   .Data .hours {
     border: 0.5px solid white;
     border-radius: 5%;
-    height: 15px;
+    height: 20px;
     width: 20%;
     text-align: center;
     font-weight: 900;
@@ -55,7 +56,7 @@
   .Data .minutes {
     border: 0.5px solid white;
     border-radius: 5%;
-    height: 15px;
+    height: 20px;
     width: 20%;
     text-align: center;
     font-weight: 900;
@@ -74,6 +75,7 @@
     border-radius: 10%;
     font-family: Roboto;
     cursor: pointer;
+    margin-top: 15px;
   }
 
 }
