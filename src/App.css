@@ -1,10 +1,10 @@
 .Main {
   text-align: center;
-  background-image: url('./Images/C3.jpg');
+  background-image: url('./Images/RunBGC.jpg');
   background-repeat: no-repeat;
-  background-position-x: 65%;
+  background-position-x: 35%;
   
-  background-size: 180%;
+  background-size: 110%;
   padding-bottom: 40px;
 
   width: 100%;
@@ -38,18 +38,22 @@
   margin: 2.5%;
 }
 
-.text {
-  color: #e65401;
+.text { 
+  background-color: #0c1f38;
+  color: white;
   text-align: center;
 }
 
 .paragraph {
+  background-color: #0c1f38;
   text-align: center;
   border-bottom: 1px solid;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .paragraph h1 {
-  color: #0c1f38;
+  color:#e65401;
   font-weight: 900;
   font-size: 250%;
   margin-top: 3%;
@@ -64,10 +68,12 @@
 
 .paragraph-2 {
   text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .paragraph-2 h1 {
-  color: #0c1f38;
+  color: #e65401;
   font-weight: 900;
   font-size: 250%;
   margin-top: 3%;
@@ -113,21 +119,22 @@
   .calculator {
     display: block;
     text-align: center;
-    margin: 1% 15%;
   }
   
   .text {
-    color: #e65401;
+    background-color: #0c1f38;
     text-align: center;
   }
   
   .paragraph {
+    background-color: #0c1f38;
     text-align: center;
     border-bottom: 1px solid;
   }
   
   .paragraph h1 {
-    color: #0c1f38;
+    
+    color: #e65401;
     font-weight: 400;
     font-size: 250%;
     margin-top: 3%;
@@ -140,11 +147,12 @@
   }
   
   .paragraph-2 {
+    background-color: #0c1f38;
     text-align: center;
   }
   
   .paragraph-2 h1 {
-    color: #0c1f38;
+    color: #e65401;
     font-weight: 500;
     font-size: 250%;
     margin-top: 3%;

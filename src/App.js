@@ -11,7 +11,7 @@ function App() {
       <div className="Main">
         <header className="Main-header">
 
-        <h1>Calcule Aqui da Forma Mais Rápida e Eficiente!</h1>
+          <h1>Calcule Aqui da Forma Mais Rápida e Eficiente!</h1>
         
         </header>
 
@@ -22,6 +22,7 @@ function App() {
                 distance: '',
                 hours: '',
                 minutes: '',
+                seconds: '',
                 result: '',
                 }}
               />

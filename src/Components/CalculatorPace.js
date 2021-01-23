@@ -8,24 +8,23 @@ export default class CalculatorPace extends Component {
 
         this.state = {
             distance_value: 0,
+            result_value: 0,
             hours_value: 0,
             minutes_value: 0,
-            result_value: 0,
-
+            seconds_value: 0,
         }
 
         this.converter = this.converter.bind(this);        
         
     }
 
-    
-
     converter(){
 
         let distance = parseFloat(this.state.distance_value);
-        let hours = parseFloat(this.state.hours_value * 60);
-        let minutes = parseFloat(this.state.minutes_value);
-        let time = hours + minutes;
+        let hour = parseFloat(this.state.hours_value) * 60;
+        let minute = parseFloat(this.state.minutes_value);
+        let second = parseFloat(this.state.seconds_value) * 0.6;
+        let time = hour + minute + second;
 
         let calculation = (time/distance).toFixed(2);
         const str1 = calculation.toString();
@@ -34,7 +33,7 @@ export default class CalculatorPace extends Component {
         let int = parseInt(splitted[0]);
         let dec = parseFloat(splitted[1]);
 
-        let dec1 = (dec * 6)/10;
+        let dec1 = ((dec * 6)/10).toFixed(0);
 
         const int_1 = int.toString();
         const dec_2 = dec1.toString();
@@ -46,6 +45,8 @@ export default class CalculatorPace extends Component {
         console.log(result_value);
 
     }
+
+    
 
     render(){
         return(
@@ -65,6 +66,10 @@ export default class CalculatorPace extends Component {
                 <h3>Qtd de minutos
                 </h3>  
                 <input className='minutes' type='text' inputMode='numeric' onChange={(event) => {this.setState({minutes_value:event.target.value})}}></input>
+
+                <h3>Qtd de segundos
+                </h3>  
+                <input className='seconds' type='text' inputMode='numeric' onChange={(event) => {this.setState({seconds_value:event.target.value})}}></input>
 
                 <h3>Resultado (min/km)</h3>
                 <h1>{this.state.result_value}</h1>

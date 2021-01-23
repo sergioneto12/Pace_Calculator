@@ -12,30 +12,30 @@ export default class CalculatorSpeed extends Component {
             hours_value: 0,
             minutes_value: 0,
             result_value: 0,
-
-        }
+            seconds_value: 0,
+            
+        };
 
         this.converter = this.converter.bind(this);        
         
     }
 
-    converter(){
+    converter() {
 
         let distance = parseFloat(this.state.distance_value);
-        let hours = parseFloat(this.state.hours_value * 60);
-        let minutes = parseFloat(this.state.minutes_value);
-        let time = hours + minutes;
+        let hour = parseFloat(this.state.hours_value) * 60;
+        let minute = parseFloat(this.state.minutes_value);
+        let second = parseFloat(this.state.seconds_value) * 0.6;
+
+        let time = hour + minute + second;
 
         let result = ((distance / time) * 60).toFixed(2);
 
         const result_str = result.toString();
-
+        
         let result_value = result_str + '(km/h)';
 
         this.setState({result_value});
-
-        console.log(result_value);
-
 
     }
 
@@ -57,6 +57,10 @@ export default class CalculatorSpeed extends Component {
                 <h3>Qtd de minutos
                 </h3>  
                 <input className='minutes' type='text' inputMode='numeric' onChange={(event) => {this.setState({minutes_value:event.target.value})}}></input>
+
+                <h3>Qtd de segundos
+                </h3>  
+                <input className='seconds' type='text' inputMode='numeric' onChange={(event) => {this.setState({seconds_value:event.target.value})}}></input>
 
                 <h3>Resultado (km/h)</h3>
                 <h1>{this.state.result_value}</h1>
