@@ -1,7 +1,6 @@
 import './App.css';
 import CalculatorPace from './Components/CalculatorPace';
 import CalculatorSpeed from './Components/CalculatorSpeed';
-import Map from '../src/Images/Map.jpeg';
 
 function App() {
   document.title = 'Calculadora de Corrida';
@@ -11,7 +10,7 @@ function App() {
       <div className="Main">
         <header className="Main-header">
 
-          <h1>Calcule Aqui da Forma Mais Rápida e Eficiente!</h1>
+          <h1 className="Title">Calcule Aqui da Forma Mais Rápida e Eficiente!</h1>
         
         </header>
 
