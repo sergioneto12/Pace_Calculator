@@ -178,3 +178,94 @@
   
 }
 
+@media (max-width: 600px) {
+  .Main {
+    text-align: center;
+    width: 100%;
+    background-image: url('./Images/RunBGC.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 65%;
+    background-size: auto;
+    padding-bottom: 10%;
+  }
+  
+  .Main-header {
+    background-color: #0c1f38;
+    height: 100px;
+    width: 100%;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #e65401;
+    margin-top: -8%;
+    padding-top: 12%;
+  }
+
+  .Main-header h1 {
+    font-size: 900;
+    font-weight: 900;
+    margin-top: 3%;
+  }
+
+  .calculator {
+    display: block;
+    text-align: center;
+    width: 100%;
+
+  }
+  
+  .text {
+    background-color: #0c1f38;
+    text-align: center;
+    margin-top: -10%;
+  }
+  
+  .paragraph {
+    background-color: #0c1f38;
+    text-align: center;
+    border-bottom: 1px solid;
+
+    
+    
+  }
+  
+  .paragraph h1 {
+    
+    color: #e65401;
+    font-size: 250%;
+    margin-top: 10%;
+    font-weight: 100;
+  }
+  
+  .paragraph h3 {
+    font-weight: 100;
+    font-size: 150%;
+    margin: 3% 7%;
+    color: white;
+  }
+  
+  .paragraph-2 {
+    background-color: #0c1f38;
+    text-align: center;
+    padding-bottom: 12%;
+  }
+  
+  .paragraph-2 h1 {
+    color: #e65401;
+    font-weight: 100;
+    font-size: 250%;
+    margin-top: 3%;
+  }
+  
+  .paragraph-2 h3 {
+    text-align: justify;
+    font-weight: 100;
+    font-size: 150%;
+    margin: 3% 7%;
+    color: white;
+  }
+  
+}
+
