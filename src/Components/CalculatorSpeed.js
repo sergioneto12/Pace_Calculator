@@ -25,7 +25,7 @@ export default class CalculatorSpeed extends Component {
         let distance = parseFloat(this.state.distance_value);
         let hour = parseFloat(this.state.hours_value) * 60;
         let minute = parseFloat(this.state.minutes_value);
-        let second = parseFloat(this.state.seconds_value) * 0.6;
+        let second = parseFloat(this.state.seconds_value) / 60;
 
         let time = hour + minute + second;
 
