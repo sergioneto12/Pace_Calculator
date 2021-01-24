@@ -115,6 +115,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: #e65401;
+    padding: 1% 0%;
   }
 
   .Main-header h1 {
@@ -226,16 +227,13 @@
     background-color: #0c1f38;
     text-align: center;
     border-bottom: 1px solid;
-
-    
-    
   }
   
   .paragraph h1 {
     
     color: #e65401;
     font-size: 250%;
-    margin-top: 10%;
+    margin-top: 15%;
     font-weight: 100;
   }
   
@@ -249,21 +247,21 @@
   .paragraph-2 {
     background-color: #0c1f38;
     text-align: center;
-    padding-bottom: 12%;
+    padding-bottom: 10px;
   }
   
   .paragraph-2 h1 {
     color: #e65401;
     font-weight: 100;
     font-size: 250%;
-    margin-top: 3%;
+    margin-top: 5%;
   }
   
   .paragraph-2 h3 {
     text-align: justify;
     font-weight: 100;
     font-size: 150%;
-    margin: 3% 7%;
+    margin: 0;
     color: white;
   }
   
