@@ -13,7 +13,7 @@
 
   .Main-header {
     background-color: #0c1f38;
-    height: 15%;
+    height: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,7 @@
   }
 
   .Main-header Title {
-    font-size: 100%;
+    font-size: 90%;
     text-align: center;
   }
 
@@ -103,11 +103,12 @@
     background-position-x: 65%;
     background-size: auto;
     padding-bottom: 10%;
+    
   }
   
   .Main-header {
     background-color: #0c1f38;
-    height: 200%;
+    height: 100%;
     width: 100%;
     
     flex-direction: column;
@@ -115,25 +116,23 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: #e65401;
-    padding: 1% 0%;
-  }
+    margin: -1% 0;
 
-  .Main-header h1 {
-    font-size: 100%;
-    font-weight: 200%;
-    
   }
 
   .calculator {
     display: block;
     text-align: center;
     width: 100%;
+    margin-top: 8%;
+
   }
   
   .text {
     background-color: #0c1f38;
     text-align: center;
-    margin-top: -10%;
+    margin-top: -5%;
+    padding-top: .1%;
   }
   
   .paragraph {
@@ -145,102 +144,16 @@
   .paragraph h1 {
     
     color: #e65401;
-    font-size: 250%;
-    margin-top: 3%;
+    font-size: 160%;
+    margin-top: 5%;
     font-weight: 100;
   }
   
   .paragraph h3 {
-    font-weight: 100;
-    font-size: 150%;
-    margin: 3% 7%;
-    color: white;
-  }
-  
-  .paragraph-2 {
-    background-color: #0c1f38;
-    text-align: center;
-  }
-  
-  .paragraph-2 h1 {
-    color: #e65401;
-    font-weight: 100;
-    font-size: 250%;
-    margin-top: 3%;
-  }
-  
-  .paragraph-2 h3 {
     text-align: justify;
     font-weight: 100;
-    font-size: 150%;
-    margin: 3% 7%;
-    color: white;
-  }
-  
-}
-
-@media (max-width: 600px) {
-  .Main {
-    text-align: center;
-    width: 100%;
-    background-image: url('./Images/RunBGC.jpg');
-    background-repeat: no-repeat;
-    background-position-x: 65%;
-    background-size: auto;
-    padding-bottom: 10%;
-  }
-  
-  .Main-header {
-    background-color: #0c1f38;
-    height: 100px;
-    width: 100%;
-    
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: #e65401;
-    margin-top: -8%;
-    padding-top: 12%;
-  }
-
-  .Main-header h1 {
-    font-size: 900;
-    font-weight: 900;
-    margin-top: 3%;
-  }
-
-  .calculator {
-    display: block;
-    text-align: center;
-    width: 100%;
-
-  }
-  
-  .text {
-    background-color: #0c1f38;
-    text-align: center;
-    margin-top: -10%;
-  }
-  
-  .paragraph {
-    background-color: #0c1f38;
-    text-align: center;
-    border-bottom: 1px solid;
-  }
-  
-  .paragraph h1 {
-    
-    color: #e65401;
-    font-size: 250%;
-    margin-top: 15%;
-    font-weight: 100;
-  }
-  
-  .paragraph h3 {
-    font-weight: 100;
-    font-size: 150%;
-    margin: 3% 7%;
+    font-size: 120%;
+    margin: 5% 10%;
     color: white;
   }
   
@@ -252,16 +165,16 @@
   
   .paragraph-2 h1 {
     color: #e65401;
+    font-size: 160%;
+    margin: 5%;
     font-weight: 100;
-    font-size: 250%;
-    margin-top: 5%;
   }
   
-  .paragraph-2 h3 {
+  .paragraph-2 p {
     text-align: justify;
     font-weight: 100;
-    font-size: 150%;
-    margin: 0;
+    font-size: 120%;
+    margin: 5% 10%;
     color: white;
   }
   
