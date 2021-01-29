@@ -126,14 +126,15 @@
     text-align: center;
     width: 100%;
     margin-top: 8%;
+    padding-bottom: 6%;
 
   }
   
   .text {
     background-color: #0c1f38;
     text-align: center;
-    margin-top: -5%;
-    padding-top: .1%;
+    padding-top: 1%;
+
   }
   
   .paragraph {
@@ -143,7 +144,6 @@
   }
   
   .paragraph h1 {
-    
     color: #e65401;
     font-size: 160%;
     margin-top: 5%;
