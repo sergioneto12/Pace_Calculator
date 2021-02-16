@@ -1,9 +1,12 @@
+import {useEffect} from 'react';
 import './App.css';
 import CalculatorPace from './Components/CalculatorPace';
 import CalculatorSpeed from './Components/CalculatorSpeed';
 
 function App() {
-  document.title = 'Calculadora de Corrida';
+  useEffect(() => {
+    document.title = "A Calculadora Prática de Corrida"
+  }, []);
 
   return (
     <div>
