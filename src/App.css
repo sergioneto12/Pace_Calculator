@@ -7,7 +7,9 @@
     background-size: 100%;
     background-attachment: fixed;
     background-position-x: 35%;
+    background-position-y: 35%;
     padding-bottom: 60px;
+    background-color: #badcf5;
 
   }
 
@@ -103,7 +105,7 @@
   .Main {
     text-align: center;
     width: 100%;
-    background-image: url('./Images/RunBGC.jpg');
+    background-color: #badcf5;
     background-repeat: no-repeat;
     background-position-x: 65%;
     background-size: auto;
