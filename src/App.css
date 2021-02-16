@@ -92,6 +92,11 @@
     margin: 3% 7%;
   }
 
+  .CGC {
+    width: 100%; 
+    height: 140vh;
+  }
+
 }
 
 @media (max-width: 999px) {

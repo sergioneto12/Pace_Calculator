@@ -20,13 +20,33 @@ export default class CalculatorPace extends Component {
 
     converter(){
 
-        let distance = parseFloat(this.state.distance_value);
+        let dist = parseFloat(this.state.distance_value);
+
+        if (isNaN(dist)) {
+            dist = 0;
+        };
+
         let hour = parseFloat(this.state.hours_value) * 60;
+
+        if (isNaN(hour)) {
+            hour = 0;
+        };
+
         let minute = parseFloat(this.state.minutes_value);
+
+        if (isNaN(minute)) {
+            minute = 0;
+        };
+
         let second = parseFloat(this.state.seconds_value) / 60;
+
+        if (isNaN(second)) {
+            second = 0;
+        };
+
         let time = hour + minute + second;
 
-        let calculation = (time/distance).toFixed(2);
+        let calculation = (time/dist).toFixed(2);
         const str1 = calculation.toString();
         const splitted = str1.split('.');
         

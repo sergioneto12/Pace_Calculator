@@ -73,6 +73,11 @@ function App() {
           </article>
         </section>
       </div>
+
+     {/*<iframe className='CGC' title="Calculadora de Gordura Corporal" src="https://pt.calcuworld.com/nutricao/percentagem-de-gordura-corporal/?iframe=1"></iframe>*/}
+
+     
+     
     </div>
     
   );

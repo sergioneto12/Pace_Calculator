@@ -22,14 +22,33 @@ export default class CalculatorSpeed extends Component {
 
     converter() {
 
-        let distance = parseFloat(this.state.distance_value);
+        let dist = parseFloat(this.state.distance_value);
+
+        if (isNaN(dist)) {
+            dist = 0;
+        };
+
         let hour = parseFloat(this.state.hours_value) * 60;
+
+        if (isNaN(hour)) {
+            hour = 0;
+        };
+
         let minute = parseFloat(this.state.minutes_value);
+
+        if (isNaN(minute)) {
+            minute = 0;
+        };
+
         let second = parseFloat(this.state.seconds_value) / 60;
+
+        if (isNaN(second)) {
+            second = 0;
+        };
 
         let time = hour + minute + second;
 
-        let result = ((distance / time) * 60).toFixed(2);
+        let result = ((dist / time) * 60).toFixed(2);
 
         const result_str = result.toString();
         
