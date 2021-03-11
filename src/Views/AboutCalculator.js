@@ -60,6 +60,17 @@ const Head = styled.div`
     margin-bottom: 5%;
 
   }
+
+  @media (max-width: 430px) {
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    margin-bottom: 5%;
+
+  }
 `;
 
 const TopLetter = styled.h1`
@@ -97,6 +108,18 @@ const Text  = styled.h1`
       color: white;
       width: 100%;
       text-align: justify;
+    }
+
+    @media (max-width: 430px) {
+      font-size: 85%;
+
+      p {
+      font-size: 95%; 
+      font-family: 'Arial';
+      color: white;
+      width: 100%;
+      text-align: justify;
+    }
     }
   }
 `

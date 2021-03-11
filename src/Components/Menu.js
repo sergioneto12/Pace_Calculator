@@ -9,7 +9,7 @@ const Menu = () => {
         <Nav>
             <Logo>
                 <h1>O </h1>
-                <h1> Correrdor</h1>
+                <h1> Corredor</h1>
 
             </Logo>
             <Hamburguer onClick={() => setIsOpen(!isOpen)}>
