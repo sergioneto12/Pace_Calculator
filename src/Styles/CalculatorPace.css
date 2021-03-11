@@ -1,22 +1,22 @@
-@media (min-width: 1100px) {
+@media (min-width: 1000px) {
   
   .Data {
-    background-color: #0c1f38;
-    width: 100%;
-    height: 580px;
+    background-color: white;
+    width: 450px;
+    height: 95%;
     margin: auto;
     margin-top: 2%;
     justify-items: right;
     border: 1px solid white;
-    border-radius: 10%;
+    border-radius: 5%;
   }
 
   .Data h1 {
-    color: #e65401
+    color: #ec722b;
   }
   
   .Data h2 {
-    color: white;
+    color: black;
     margin: 10px;
     margin-top: 2%;
     
@@ -25,13 +25,14 @@
   .Data h3 {
     font-weight: 500;
     margin: 8px;
-    color: white;
+    color: black;
   }
 
   .Data .distance {
-    border: 0.5px solid white;
+    background-color: rgb(96, 243, 219);
+    border: 0.5px solid black;
     border-radius: 5%;
-    height: 15px;
+    height: 30px;
     width: 20%;
     text-align: center;
     font-weight: 900;
@@ -41,9 +42,10 @@
   }
   
   .Data .hours {
-    border: 0.5px solid white;
+    background-color: rgb(96, 243, 219);
+    border: 0.5px solid black;
     border-radius: 5%;
-    height: 15px;
+    height: 30px;
     width: 20%;
     text-align: center;
     font-weight: 900;
@@ -53,9 +55,10 @@
   }
   
   .Data .minutes {
-    border: 0.5px solid white;
+    background-color: rgb(96, 243, 219);
+    border: 0.5px solid black;
     border-radius: 5%;
-    height: 15px;
+    height: 30px;
     width: 20%;
     text-align: center;
     font-weight: 900;
@@ -65,9 +68,10 @@
   }
 
   .Data .seconds {
-    border: 0.5px solid white;
+    background-color: rgb(96, 243, 219);
+    border: 0.5px solid black;
     border-radius: 5%;
-    height: 15px;
+    height: 30px;
     width: 20%;
     text-align: center;
     font-weight: 900;
@@ -80,23 +84,23 @@
   .Button {
     height: 50px;
     justify-content: center;
-    background-color: #e65401;
+    background-color: #ec722b;
     color: white;
     font-size: 30px;
     border: 1px solid;
     border-radius: 10%;
     font-family: Roboto;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 15px;
   }
 
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 999px) {
 
 .Data {
   background-color:#0c1f38;
-  width: 50%;
+  width: 65%;
   height: 80%;
  
   margin-top: 1%;
@@ -106,7 +110,7 @@
 }
 
 .Data h1 {
-  color: #e65401
+  color: #e65401;
 }
 
 .Data h2 {
@@ -180,13 +184,13 @@
 
 }
 
-@media (max-width: 950px) {
+@media (max-width: 600px) {
   
   .Data {
     background-color:#0c1f38;
-    width: 100%;
-    height: 480px;
-    margin: auto;
+    width: 80%;
+    height: 100%;
+    
     margin-top: 2%;
     justify-items: right;
     border: 1px solid white;
@@ -194,13 +198,15 @@
   }
   
   .Data h1 {
-    color: #e65401
+    color: #e65401;
+    font-weight: 100;
   }
   
   .Data h2 {
     color: white;
     margin: 10px;
     margin-top: 6%;
+    font-weight: 100;
     
   }
   
@@ -208,27 +214,39 @@
     font-weight: 500;
     margin: 8px;
     color: white;
+    font-weight: 100;
   }
   
   
   .Data .distance {
     border: 0.5px solid white;
     border-radius: 5%;
-    height: 15px;
+    height: 25px;
+    width: 30%;
     
   }
   
   .Data .hours {
     border: 0.5px solid white;
     border-radius: 5%;
-    height: 15px;
+    height: 25px;
+    width: 30%;
     
   }
   
   .Data .minutes {
     border: 0.5px solid white;
     border-radius: 5%;
-    height: 15px;
+    height: 25px;
+    width: 30%;
+    
+  }
+
+  .Data .seconds {
+    border: 0.5px solid white;
+    border-radius: 5%;
+    height: 25px;
+    width: 30%;
     
   }
   
@@ -241,8 +259,5 @@
     border: 1px solid;
     border-radius: 10%;
   }
-  
+    
 }
-
-
-  
