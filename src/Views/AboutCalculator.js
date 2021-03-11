@@ -49,6 +49,17 @@ const Head = styled.div`
   align-items: center;
   padding-top: 1%;
   margin-bottom: 5%;
+
+  @media (max-width: 999px) {
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    margin-bottom: 5%;
+
+  }
 `;
 
 const TopLetter = styled.h1`
@@ -60,15 +71,14 @@ const TopLetter = styled.h1`
   color: white;
   width: 100%;
   text-align: center;
+
+  @media (max-width: 999px) {
+    font-size: 175%;
+    }
 `;
 
 const Text  = styled.h1`  
   font-size: 120%;
-  font-family: 'Arial';
-  color: white;
-  width: 100%;
-  text-align: justify;
-  margin-bottom: 2%;
 
   p {
     font-size: 90%; 
@@ -76,6 +86,18 @@ const Text  = styled.h1`
     color: white;
     width: 100%;
     text-align: justify;
+  }
+
+  @media (max-width: 999px) {
+    font-size: 120%;
+
+    p {
+      font-size: 80%; 
+      font-family: 'Arial';
+      color: white;
+      width: 100%;
+      text-align: justify;
+    }
   }
 `
 
@@ -85,6 +107,15 @@ const Box = styled.article`
   background-color: #199e82;
   width: 60%;
   text-align: center;
+
+  @media (max-width: 999px) {
+    padding: 4%;
+    margin-top: -15%;
+    margin-left: 3%; 
+    background-color: #199e82;
+    width: 85%;
+    text-align: center;
+  }
 `;
 
 export default Title;
