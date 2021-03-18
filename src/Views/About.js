@@ -1,8 +1,9 @@
 import {Component, React} from 'react';
-import Menu from '../Components/Menu';
 import styled from 'styled-components';
 import img from '../Images/running-1.jpg';
 
+import Menu from '../Components/Menu';
+import Footer from '../Components/Footer';
 class About extends Component {
   render() {
     return(
@@ -30,6 +31,8 @@ class About extends Component {
               <p>LinkedIn: <a href='https://www.linkedin.com/in/sergioguilhermeneto/'>Sergio Guilherme Neto</a></p>
             </Text>
         </Box>
+
+        <Footer/>
       </Wrapper>            
     )
   }
@@ -40,7 +43,6 @@ const Wrapper = styled.section`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  padding-bottom: 5%;
 `;
 
 const Head = styled.div`
@@ -54,7 +56,7 @@ const Head = styled.div`
   justify-content: center;
   align-items: center;
   padding-top: 1%;
-  margin-bottom: 5%;
+  margin-bottom: -5%;
 
   @media (max-width: 999px) {
     text-align: center;

@@ -1,7 +1,9 @@
 import {Component, React} from 'react';
-import Menu from '../Components/Menu';
 import styled from 'styled-components';
 import img from '../Images/running-1.jpg';
+
+import Menu from '../Components/Menu';
+import Footer from '../Components/Footer';
 
 class Title extends Component {
   render() {
@@ -24,6 +26,8 @@ class Title extends Component {
               <p>Alguns aplicativos, embora forneçam serviços de mapas e dados sobre pace ou velocidade, nem sempre conseguem ser precisos em trechos específicos, em mostrar sua velocidade dado 1km ou segmentando dados de passada ou velocidade. a generalização dos dados, em certo momento, pode não representar a realidade. Para tal, a concepção desta calculadora tenta criar uma ferramenta, tanto para o uso mobile quanto em desktop, para a realização desta análise dos dados, e assim, facilitar o entendimento para a pessoa, dando suporte para que possa criar um aprimoramento sobre sua prática.</p>
             </Text>
         </Box>
+
+        <Footer/>
       </Wrapper>            
     )
   }
@@ -34,7 +38,6 @@ const Wrapper = styled.section`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  padding-bottom: 5%;
 `;
 
 const Head = styled.div`
@@ -48,7 +51,7 @@ const Head = styled.div`
   justify-content: center;
   align-items: center;
   padding-top: 1%;
-  margin-bottom: 5%;
+  margin-bottom: -5%;
 
   @media (max-width: 999px) {
     text-align: center;

@@ -8,9 +8,7 @@ const Menu = () => {
     return(
         <Nav>
             <Logo>
-                <h1>O </h1>
-                <h1> Corredor</h1>
-
+                <h1>Calculadora De Corrida</h1>
             </Logo>
             <Hamburguer onClick={() => setIsOpen(!isOpen)}>
                 <span></span>
@@ -47,7 +45,19 @@ const Logo = styled.div`
         font-family: 'sans-serif';
         font-size: 130%;
         color: white;
-        border-bottom: 1px solid white;
+    }
+
+    @media (max-width: 999px) {
+        padding: 0.5% 0;
+        width: 20%;
+        text-align: left;
+        display: flex;
+
+    h1 {
+        font-family: 'sans-serif';
+        font-size: 90%;
+        color: white;
+    }
     }
 `;
 
@@ -81,6 +91,7 @@ const Bar = styled.div`
     flex-direction: row;
     width: 100%;
     max-height: ${({isOpen}) => (isOpen ? "300px" : "0")};
+    transition: all 1s ease;
 
 
     @media (max-width: 1000px) {

@@ -1,8 +1,10 @@
 import {useEffect} from 'react';
 import '../Styles/Main.css';
+
 import CalculatorPace from '../Components/CalculatorPace';
 import CalculatorSpeed from '../Components/CalculatorSpeed';
 import Menu from '../Components/Menu';
+import Footer from '../Components/Footer';
 
 function Main() {
   useEffect(() => {
@@ -44,6 +46,8 @@ function Main() {
               /> 
             </div>
         </div>
+
+        <Footer/>
     </div>
     
   );
