@@ -1,10 +1,10 @@
 import {useEffect} from 'react';
-import '../Styles/Main.css';
-
+import "../index.css";
 import CalculatorPace from '../Components/CalculatorPace';
 import CalculatorSpeed from '../Components/CalculatorSpeed';
 import Menu from '../Components/Menu';
-import Footer from '../Components/Footer';
+import FooterComponent from '../Components/Footer';
+import {Page, PageHeader, Title, CalcSpace, Calculus} from '../Styles/stylesheet';
 
 function Main() {
   useEffect(() => {
@@ -12,20 +12,15 @@ function Main() {
   }, []);
 
   return (
-    <div className='full'>
+    <Page>
       <Menu/>
-      <div className="Main">    
+      <PageHeader />   
 
-          {/*
-          <h1 className="Title">
-          </h1>
-          */}
-       
-      </div>
-
-      <div className='calculator'> 
-
-            <div className='part-1'>
+      <Title>
+      Corra mais, e descubra sua melhora aqui!
+      </Title>
+      <CalcSpace> 
+            <Calculus>
               <CalculatorPace data={{
                 distance: '',
                 hours: '',
@@ -34,9 +29,9 @@ function Main() {
                 result: '',
                 }}
               />
-            </div>
+            </Calculus>
 
-            <div className='part-1'>
+            <Calculus>
               <CalculatorSpeed data={{
                 distance: '',
                 hours: '',
@@ -44,13 +39,12 @@ function Main() {
                 result: '',
                 }}
               /> 
-            </div>
-        </div>
-
-        <Footer/>
-    </div>
-    
+            </Calculus>
+        </CalcSpace>
+      <FooterComponent/>
+    </Page> 
   );
-}
+};
 
 export default Main;
+

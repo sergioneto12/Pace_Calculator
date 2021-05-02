@@ -1,18 +1,17 @@
 @media (min-width: 1000px) {
   
   .Data {
-   
     width: 450px;
     height: 93%;
     margin: auto;
     margin-top: 4%;
     justify-items: right;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 5%;
   }
 
   .Data h1 {
-    color: #cc2d2d;
+    color: black;
     margin: 10px 10px 5px 5px;
   }
   
@@ -82,16 +81,21 @@
   }
   
   .Button {
-    height: 45px;
+    height: 55px;
+    width: 125px;
     justify-content: center;
-    background-color: #cc2d2d;
+    background-color: rgb(175, 132, 39);
     color: white;
     font-size: 30px;
     border: 1px solid;
-    border-radius: 10%;
+    border-radius: 15%;
     font-family: Roboto;
     cursor: pointer;
     margin-top: 5px;
+  } 
+
+  .Button::hover {
+    background-color: black;
   }
 
 }
@@ -107,7 +111,7 @@
 }
 
 .Data h1 {
-  color: #cc2d2d;
+  color: black
 }
 
 .Data h2 {
@@ -171,7 +175,7 @@
 .Button {
   height: 50px;
   justify-content: center;
-  background-color: #cc2d2d;
+  background-color: rgb(175, 132, 39);
   color: white;
   font-size: 30px;
   border: 1px solid;
@@ -193,7 +197,7 @@
   }
   
   .Data h1 {
-    color: #cc2d2d;
+    color: black;
     font-weight: 100;
   }
   
@@ -247,11 +251,15 @@
   .Button {
     height: 50px;
     justify-content: center;
-    background-color: #cc2d2d;
-    color: white;
+    background-color: white;
+    color: rgb(175, 132, 39);
     font-size: 30px;
     border: 1px solid;
     border-radius: 10%;
     margin-bottom: 5%;
-  }   
+  }  
+  
+  .Button::hover {
+    background-color: black;
+  }
 }

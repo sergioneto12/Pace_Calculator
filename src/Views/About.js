@@ -1,9 +1,7 @@
 import {Component, React} from 'react';
-import styled from 'styled-components';
-import img from '../Images/running-1.jpg';
-
+import {Wrapper, Head, Box, TopLetter, Text} from '../Styles/stylesheet';
 import Menu from '../Components/Menu';
-import Footer from '../Components/Footer';
+import FooterComponent from '../Components/Footer';
 class About extends Component {
   render() {
     return(
@@ -32,121 +30,10 @@ class About extends Component {
             </Text>
         </Box>
 
-        <Footer/>
+        <FooterComponent/>
       </Wrapper>            
     )
   }
 }
-
-const Wrapper = styled.section`
-  background-color: #d3dada;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-`;
-
-const Head = styled.div`
-  text-align: center;
-  width: 100%;
-  height: 80vh;
-  background-image: url(${img});
-  background-size: 100%;
-  background-position-y: 30%;
-  background-repeat: no-repeat;
-  justify-content: center;
-  align-items: center;
-  padding-top: 1%;
-  margin-bottom: -5%;
-
-  @media (max-width: 999px) {
-    text-align: center;
-    width: 100%;
-    height: 50vh;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1%;
-    margin-bottom: 5%;
-
-  }
-
-  @media (max-width: 430px) {
-    text-align: center;
-    width: 100%;
-    height: 20vh;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1%;
-    margin-bottom: 5%;
-
-  }
-`;
-
-const TopLetter = styled.h1`
-  margin-top: -5%;
-  padding-top: 5%;
-  font-size: 175%;
-  font-weight: bold;  
-  font-family: 'Roboto';
-  color: white;
-  width: 100%;
-  text-align: center;
-
-  @media (max-width: 999px) {
-    font-size: 175%;
-    }
-`;
-
-const Text  = styled.h1`  
-  font-size: 120%;
-
-  p {
-    font-size: 90%; 
-    font-family: 'Arial';
-    color: white;
-    width: 100%;
-    text-align: justify;
-  }
-
-  @media (max-width: 999px) {
-    font-size: 120%;
-
-    p {
-      font-size: 80%; 
-      font-family: 'Arial';
-      color: white;
-      width: 100%;
-      text-align: justify;
-    }
-
-    @media (max-width: 430px) {
-      font-size: 85%;
-
-      p {
-      font-size: 95%; 
-      font-family: 'Arial';
-      color: white;
-      width: 100%;
-      text-align: justify;
-    }
-    }
-  }
-`
-
-const Box = styled.article`
-  padding: 2%;
-  margin-left: 5%; 
-  background-color: #199e82;
-  width: 60%;
-  text-align: center;
-
-  @media (max-width: 999px) {
-    padding: 4%;
-    margin-top: -15%;
-    margin-left: 3%; 
-    background-color: #199e82;
-    width: 85%;
-    text-align: center;
-  }
-`;
 
 export default About;
