@@ -5,6 +5,7 @@ import CalculatorSpeed from '../Components/CalculatorSpeed';
 import Menu from '../Components/Menu';
 import FooterComponent from '../Components/Footer';
 import {Page, PageHeader, Title, CalcSpace, Calculus} from '../Styles/stylesheet';
+import Maps from '../Components/Map';
 
 function Main() {
   useEffect(() => {
@@ -40,7 +41,10 @@ function Main() {
                 }}
               /> 
             </Calculus>
-        </CalcSpace>
+      </CalcSpace>
+
+      <Maps/>
+      
       <FooterComponent/>
     </Page> 
   );
