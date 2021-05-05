@@ -130,7 +130,7 @@
 
 .Data .distance {
   border: 0.5px solid black;
-  border-radius: 5%;
+  border-radius: 10px;
   height: 25px;
   width: 20%;
   text-align: center;
@@ -141,7 +141,7 @@
 
 .Data .hours {
   border: 0.5px solid black;
-  border-radius: 5%;
+  border-radius: 10px;
   height: 25px;
   width: 20%;
   text-align: center;
@@ -152,7 +152,7 @@
 
 .Data .minutes {
   border: 0.5px solid black;
-  border-radius: 5%;
+  border-radius: 10px;
   height: 25px;
   width: 20%;
   text-align: center;
@@ -163,7 +163,7 @@
 
 .Data .seconds {
   border: 0.5px solid black;
-  border-radius: 5%;
+  border-radius: 10px;
   height: 25px;
   width: 20%;
   text-align: center;

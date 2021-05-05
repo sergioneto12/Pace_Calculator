@@ -263,12 +263,12 @@ export const Page = styled.div`
 export const Title = styled.h1`
   background-color: #213ab1;
   padding: 2%;
-  margin: -3% 10% 3% 10%;
+  margin: -2% 10% 3% 10%;
   color: white;
   text-align: center;
-  border-radius: 4%;
-  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
-  font-family: 'cabin', sans-serif;
+  border-radius: 15px;
+  /* box-shadow: 10px 10px rgba(0, 0, 0, 0.2); */
+  font-family: 'Cabin', sans-serif;
   font-size: 150%;
 `;
 
@@ -276,7 +276,6 @@ export const PageHeader = styled.div`
   text-align: center;
   background-image: url(${backimg});
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: 100%;
   background-position-x: 15%;
   background-position-y: 60%;
