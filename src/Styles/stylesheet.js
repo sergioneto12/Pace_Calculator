@@ -258,6 +258,10 @@ export const Page = styled.div`
     margin-bottom: -3%;
     text-align: center;
   }
+
+  @media (max-width: 350px) {
+    margin-bottom: -5%;
+  }
 `;
 
 export const Title = styled.h1`
@@ -270,6 +274,11 @@ export const Title = styled.h1`
   /* box-shadow: 10px 10px rgba(0, 0, 0, 0.2); */
   font-family: 'Cabin', sans-serif;
   font-size: 150%;
+
+  @media (max-width: 350px) {
+   padding: 1%; 
+   margin: -10% 0 3% 0;
+  }
 `;
 
 export const PageHeader = styled.div`
@@ -288,8 +297,8 @@ export const PageHeader = styled.div`
   }
 
   @media (max-width: 699px) {
-    background-position: 50% 10%;
-    background-size: 100%;
+    background-position: 30% 10%;
+    background-size: 150%;
   }
 `;
 
