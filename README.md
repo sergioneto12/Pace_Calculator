@@ -12,6 +12,6 @@ A reutilização de componentes seria possível caso fossem calculadoras com val
 
 Para além disto, a ideia de termos duas calculadoras se dá pois, nesta situação, o usuário pode querer realizar cálculos simultâneos, o que fica facilitado.
 
-# Depolyed with Vercel
+# Deployed with Vercel
 
 Você pode visitar o site em https://calculadoradecorrida.vercel.app
